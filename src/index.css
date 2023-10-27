@@ -16,10 +16,21 @@ h1 {
   background-color: darkred;
   color: white;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+h4 {
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+p {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .center {
   display: block;
@@ -35,3 +46,33 @@ img {
 }
 
 body {background-color: whitesmoke;}
+
+.navbar {
+margin-top: -8px;
+margin-bottom: 0px;
+}
+
+.accordion-button {
+  background-color: gray !important;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color:white;
+}
+
+.accordion{
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.bodyDiv {
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
