@@ -1,5 +1,5 @@
 import {Routes, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+//import { HashRouter } from "react-router-dom";
 
 import Home from "./home"
 import Maps from "./maps";
@@ -12,11 +12,11 @@ function App() {
     return (
 
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/home" element={<Home/>}/>
-            <Route path="/maps" element={<Maps/>}/>
-            <Route path="/info" element={<Info/>}/>
-            <Route path="/sources" element={<Sources/>}/>
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/home" element={<Home/>}></Route>
+            <Route path="/maps" element={<Maps/>}></Route>
+            <Route path="/info" element={<Info/>}></Route>
+            <Route path="/sources" element={<Sources/>}></Route>
         </Routes>
 
     );
