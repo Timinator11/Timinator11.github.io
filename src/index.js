@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, HashRouter} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 
 import App from './App';
 import ColorSchemesExample from './navbar';
@@ -19,7 +19,7 @@ root.render(
     <h1>US Wildfire Information & Visualization</h1>
     <ColorSchemesExample/>
 
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter basename={"/Timinator11"}>
       <App />
     </BrowserRouter>
     
